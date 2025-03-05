@@ -1,5 +1,5 @@
-[!WARNING]
+> [!WARNING]
 > Your pasted scripts could be cracked
 
-# cfgGuard
-New way to protect configs
+## cfgGuard
+A brand new open-source way to protect configurations
