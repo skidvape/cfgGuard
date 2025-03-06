@@ -14,8 +14,8 @@ cfgkeys.new = function()
     return key
 end
 cfgkeys.get = function(rbxanalytics: RbxAnalyticsService)
-    writefile('keys.lua', cfgkeys.clientkeys[rbxanalytics:GetClientId()])
-    return cfgkeys.clientkeys[rbxanalytics]
+    writefile('keys.lua', tostring(cfgkeys.clientkeys[rbxanalytics:GetClientId()]))
+    return cfgkeys.clientkeys[rbxanalytics:GetClientId()]
 end
 
 return cfgkeys
