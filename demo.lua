@@ -7,7 +7,7 @@ cfgkeys.clientkeys = {
 local Players: Players = game:GetService('Players')
 local rbxanalytics: RbxAnalyticsService = game:GetService('RbxAnalyticsService')
 
-if string.match(getgenv().cfgkey, cfgkeys.get(rbxanalytics:GetClientId())) then
+if string.match(getgenv().cfgkey, cfgkeys.get()) then
     return nil
 elseif not getgenv().cfgkey then
     return Players.LocalPlayer:Kick('die')
