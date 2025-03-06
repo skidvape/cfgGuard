@@ -1,3 +1,6 @@
+
+-- I do not trust exploits to have a built in crypt library lolz
+
 --[=[------------------------------------------------------------------------------------------------------------------------
 -- HashLib by Egor Skriptunoff, boatbomber, and howmanysmall
 -- Boatbomber did the majority of the work, I just helped him with initial optimizations and did the final speed boost.
