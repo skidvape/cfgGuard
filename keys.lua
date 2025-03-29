@@ -15,7 +15,6 @@ cfgkeys.new = function()
     return fullkey
 end
 cfgkeys.get = function()
-    writefile('keys.lua', tostring(cfgkeys.clientkeys[user]))
     return cfgkeys.clientkeys[user]
 end
 
